@@ -37,9 +37,9 @@ The Lambda function:
 ```text
 .
 ├── lambda_function.py
+├── .gitignore
 ├── rainbow_op.json
 ├── LICENSE
-├── architecture.png
 └── README.md
 ```
 
