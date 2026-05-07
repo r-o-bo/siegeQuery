@@ -1,6 +1,6 @@
 # SiegeQuery
 
-An AI-powered R6 assistant built using AWS cloud services and large language models.
+A lightweight RAG-style assistant for Rainbow Six Siege using AWS Lambda, Amazon S3, and SageMaker-hosted LLMs.
 
 ##  Tech Stack
 
@@ -85,18 +85,35 @@ Key="rainbow_op.json"
 EndpointName="meta-textgeneration-llama-2-7b"
 ```
 
-## User Input
+## User Inputs
 
 ```json
 {
   "user_input": "What does Mute do in Rainbow Six Siege?"
 }
+
+{
+"user_input": "Does Tubarao's freeze work on Ying's candelas?"
+}
+
+{
+"user_input": "Can Snake's radar detect Vigil?"
+}
+
 ```
 
-## Model Response
+## Sagemaker hosted Model Response
 ```json
 {
   "response": "Mute is a defender in Rainbow Six Siege with a 2 speed and 2 armor rating. His Signal Disruptors jam attacker gadgets such as drones, breach devices, and electronic tools within their radius. He is commonly used to deny intel and protect reinforced walls from hard breachers."
+}
+
+{
+  "response": "Tubarao's Zoto Canisters can slow or temporarily disable Ying's Candelas if they pass through the freeze zone before activation. However, they do not permanently destroy the gadget like Jager's ADS or Wamai's MAG-NET systems."
+}
+
+{
+  "response": "Solid Snake's radar can have difficulty detecting Vigil while his ERC-7 cloaking ability is active. Vigil disrupts electronic intel devices, making him harder to track through observation and detection tools."
 }
 ```
 
