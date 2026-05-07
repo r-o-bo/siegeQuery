@@ -36,7 +36,7 @@ The Lambda function:
 
 ```text
 .
-├── lambda_function.py
+├── sagemaking.py
 ├── .gitignore
 ├── rainbow_op.json
 ├── LICENSE
