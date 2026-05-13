@@ -102,7 +102,7 @@ EndpointName="meta-textgeneration-llama-2-7b"
 
 ```
 
-## Sagemaker hosted Model Response
+## Sagemaker hosted Model Response (Meta Llama 2 7B Chat)
 ```json
 {
   "response": "Mute is a defender in Rainbow Six Siege with a 2 speed and 2 armor rating. His Signal Disruptors jam attacker gadgets such as drones, breach devices, and electronic tools within their radius. He is commonly used to deny intel and protect reinforced walls from hard breachers."
